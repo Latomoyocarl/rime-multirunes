@@ -1,0 +1,77 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: rime-multirunes
+version: "0.001"
+author: Null0
+sort: original
+use_preset_vocabulary: false
+...
+
+# Futhark
+ᚠ	f
+ᚢ	u
+ᚦ	T	# also þ
+ᚨ	a
+ᚱ	r
+ᚲ	k
+ᚷ	g
+ᚹ	w
+ᚺ	h
+ᚾ	n
+ᛁ	i
+ᛃ	j
+ᛇ	I	# also ï
+ᛈ	p
+ᛉ	z
+ᛊ	s
+ᛏ	t
+ᛒ	b
+ᛖ	e
+ᛗ	m
+ᛚ	l
+ᛜ	N	# also ŋ
+ᛞ	d
+ᛟ	o
+
+# Futhorc
+ᚳ	c
+ᚻ	H
+ᛄ	J
+ᛋ	S	# flash s
+ᚩ	O
+ᛝ	G	# also ŋ
+ᚪ	A
+ᚫ	E
+ᚣ	y
+ᛡ	Y
+ᛠ	R
+ᛣ	C
+ᛤ	'k
+ᚸ	'g
+ᛢ	q
+ᛥ	Q
+
+# Fuþąrk
+ᚴ	K
+ᚬ	'o
+ᚿ	'n
+ᛅ	'a
+ᛆ	'e
+ᛌ	's
+ᛐ	't
+ᛓ	B
+ᛘ	M
+ᛦ	'r
+
+# Others
+ᚧ	D
+ᛪ	x
+ᛔ	P
+ᚡ	v
+ᚥ	W
+ᚯ	V
+᛬	,
+᛭	.
+᛫	/

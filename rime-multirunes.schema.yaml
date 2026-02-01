@@ -1,0 +1,39 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: rime-multirunes
+  name: ᛗᚢᛚᛏᛁᚱᚢᚾᛖᛊ
+  version: "0.01"
+  author:
+    - Null0
+  description: |
+    ·用於鍵入多種如尼/盧恩字符的輸入法，具體映射規則請查看'字典'文件。
+    ·This is an input method for typing various RUNIC letters. Please refer to the DICT file for specific mapping rules.
+    ·様々なルーン文字をタイプするための入力方法で、具体的なマッピング規則は'辞書'ファイルを参照してください。
+
+engine:
+  processors:
+    - ascii_composer
+    - speller
+    - selector
+    - navigator
+    - express_editor
+
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+
+  translators:
+    - table_translator
+    - punct_translator
+    - echo_translator
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.<>/?~:;`'\"&^$@|[]{}"
+  auto_select: true
+
+translator:
+  dictionary: rime-multirunes
